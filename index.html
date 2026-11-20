@@ -128,6 +128,17 @@
       text-decoration: underline;
     }
 
+    .research-list li { margin: 0 0 18px; }
+    .research-list li:last-child { margin-bottom: 0; }
+    .paper-title { font-weight: 500; }
+    .presentation {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.93rem;
+      font-style: italic;
+    }
+    .paper-description { margin: 6px 0 0; }
+
     .footer {
       margin-top: 22px;
       color: var(--muted);
@@ -185,14 +196,55 @@
       </div>
 
       <div class="section">
-        <h2>Selected Research</h2>
-        <ul>
-          <li><a href="https://arxiv.org/pdf/2603.02456">When Does Static Willingness to Pay Mislead? A Framework for Dynamic Hedonic Valuation</a></li>
-          <li><a href="https://economics.uq.edu.au/files/54597/672.pdf">A Secret Worth Keeping? Bid Cap Design in Budget-Constrained Procurement Auctions (with Lana Friesen and Ian MacKenzie)</a></li>
+        <h2>Working papers</h2>
+        <ul class="research-list">
+          <li>
+            <a href="https://arxiv.org/pdf/2603.02456">When Does Static Willingness to Pay Mislead? A Framework for Dynamic Hedonic Valuation</a>
+            <p class="presentation">Presented at MIT IO Lunch.</p>
+          </li>
+          <li>
+            <a href="https://economics.uq.edu.au/files/54597/672.pdf">A Secret Worth Keeping? Bid Cap Design in Budget-Constrained Procurement Auctions</a> (with Lana Friesen and Ian A. MacKenzie)
+          </li>
         </ul>
       </div>
 
-      <p class="footer">Last updated: October 2026</p>
+      <div class="section">
+        <h2>Works in progress</h2>
+        <ul class="research-list">
+          <li>
+            <span class="paper-title">How Far Can Firms Push Product Claims? Demand, Attention, and Strategic Representation</span>
+            <p class="presentation">Presented at MIT Research Seminar in Marketing.</p>
+            <p class="paper-description">A structural model of firms’ product claims and rationally inattentive consumer demand, studying when attention and competition discipline exaggeration.</p>
+          </li>
+          <li>
+            <span class="paper-title">Optimal Bandwagons: Consensus Building with Public Pressure</span>
+            <p class="presentation">Presented at MIT Behavioural Lunch.</p>
+            <p class="paper-description">A model of evidence access and voting order showing when public pressure helps secure unanimous approval and when an approval-seeking sponsor benefits from protecting independent scrutiny.</p>
+          </li>
+          <li>
+            <span class="paper-title">AI Assistance and Misperceived Learning</span> (with Eric Gao)
+            <p class="paper-description">An experiment testing whether AI assistance distorts beliefs about human capital accumulation by inducing overprediction of later unaided performance.</p>
+          </li>
+          <li>
+            <span class="paper-title">Commitment Cascades</span> (with Eric Gao)
+            <p class="paper-description">A model of delayed commitment demand in which naive present-biased agents update from failed intentions, generating cross-environment cascades in sophistication and take-up.</p>
+          </li>
+          <li>
+            <span class="paper-title">AI and Skill Development in Frontline Health Work</span> (with Madhavi Jha and Lauren Rice)
+            <p class="paper-description">A planned experiment testing how AI advice and feedback during training affect community health workers’ later unaided counselling skills and transfer to unfamiliar cases.</p>
+          </li>
+          <li>
+            <span class="paper-title">Diagnosing Behavioural Hazard in the Age of Algorithms</span> (with Zachary Wojtowicz)
+            <p class="paper-description">A planned field experiment testing whether AI support tailored to patients’ barriers improves diabetic retinopathy follow-up beyond standard information and reminders.</p>
+          </li>
+          <li>
+            <span class="paper-title">Modern Slavery</span> (with Ian Jewitt)
+            <p class="paper-description">A decision-theoretic model of risky migration and trafficking vulnerability under uncertainty.</p>
+          </li>
+        </ul>
+      </div>
+
+      <p class="footer">Last updated: November 2026</p>
     </section>
   </main>
 </body>
